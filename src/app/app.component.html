@@ -37,7 +37,7 @@
     <div class="statement" *ngIf="servantsArr.length">
       <ul class="circle-container">
         <li *ngFor="let servant of servantsArr; let i = index" id="circle{{ i }}">
-          <img src="/assets/servant.svg" />
+          <img src="/assets/servant.svg" />{{i+1}}
         </li>
       </ul>
     </div>
